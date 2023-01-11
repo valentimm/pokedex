@@ -1,0 +1,126 @@
+body * {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Oxanium", cursive;
+}
+body {
+  background: linear-gradient(to bottom, #6ab7f5, #ffffff) no-repeat fixed;
+}
+
+/* Container */
+#container {
+  width: 100%;
+  margin: 56px auto 0px auto;
+  padding: 0px 20px;
+  max-width: 425px;
+  position: relative;
+}
+/* Pokedex */
+#pokedex img {
+  width: 110%;
+  height: 110%;
+}
+
+/* Pokemon */
+
+#pokemon_image img {
+  position: absolute;
+  height: 20%;
+  left: 36%;
+  bottom: 51%;
+}
+
+/* Pokemon Infos */
+
+#pokemon_data {
+  position: absolute;
+  font-weight: 600;
+  font-size: clamp(1.1rem, 1.6rem, 1.8rem);
+  color: #aaa;
+  top: 55%;
+  left: 40%;
+  width: 44%;
+  align-content: flex-end;
+}
+
+#pokemon_name {
+  position: absolute;
+  color: #3a444d;
+  text-transform: capitalize;
+  text-align: end;
+}
+
+/* Pokemon Search */
+
+#form {
+  position: absolute;
+  width: 75%;
+  top: 66%;
+  left: 12.5%;
+}
+
+#pokemon_search {
+  width: 100%;
+  border: 2px solid #333;
+  border-radius: 5px;
+  padding: 4%;
+  font-weight: 600;
+  color: #3a444d;
+  outline: none;
+  font-size: clamp(1.1rem, 1.6rem, 1.8rem);
+  box-shadow: -3px 4px 0px #888, -5px 7px 0 #333;
+}
+
+/* Buttons */
+#buttons {
+  position: absolute;
+  bottom: 10%;
+  left: 56%;
+  width: 75%;
+  transform: translate(-57%, 0);
+  display: flex;
+  gap: 45px;
+}
+
+#previous {
+  width: 50%;
+  padding: 4%;
+  border: 2px solid #000;
+  border-radius: 5px;
+  font-weight: 600;
+  font-size: clamp(1.1rem, 1.6rem, 1.8rem);
+  color: white;
+  background: #444;
+  box-shadow: -2px 3px 0px #222, -4px 6px 0 #000;
+}
+
+#next {
+  width: 50%;
+  padding: 4%;
+  border: 2px solid #000;
+  border-radius: 5px;
+  font-weight: 600;
+  font-size: clamp(1.1rem, 1.6rem, 1.8rem);
+  color: white;
+  background: #444;
+  box-shadow: -2px 3px 0px #222, -4px 6px 0 #000;
+}
+
+#previous:active {
+  box-shadow: inset -4px -4px 0 #222;
+  font-size: 0.9rem;
+}
+
+#previous:hover {
+  color: #56acf2;
+}
+
+#next:active {
+  box-shadow: inset -4px -4px 0 #222;
+  font-size: 0.9rem;
+}
+
+#next:hover {
+  color: #56acf2;
+}
