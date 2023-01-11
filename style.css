@@ -39,7 +39,7 @@ body {
   font-size: clamp(1.1rem, 1.6rem, 1.8rem);
   color: #aaa;
   top: 55%;
-  left: 40%;
+  left: 30%;
   width: 44%;
   align-content: flex-end;
 }
@@ -48,7 +48,6 @@ body {
   position: absolute;
   color: #3a444d;
   text-transform: capitalize;
-  text-align: end;
 }
 
 /* Pokemon Search */
