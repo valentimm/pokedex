@@ -123,3 +123,28 @@ body {
 #next:hover {
   color: #56acf2;
 }
+
+@media (max-width: 458px) {
+  #pokedex img {
+    width: 100%;
+    height: 100%;
+  }
+  #pokemon_data {
+    font-weight: 600;
+    font-size: clamp(1rem, 1.4rem, 1.8rem);
+    left: 25%;
+  }
+  #pokemon_search {
+    width: 90%;
+    padding: 3%;
+  }
+  #buttons {
+    gap: 35px;
+  }
+  #previous {
+    width: 38%;
+  }
+  #next {
+    width: 38%;
+  }
+}
